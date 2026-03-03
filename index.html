@@ -26,6 +26,28 @@
     </style>
 </head>
 
-<body>
+<body class="bg-slate-50 min-h-screen py-10">
+    <section class="w-[80%] mx-auto">
+        <h1 class="text-[32px] font-bold mb-8 text-[#002C5C]">
+            Job Application Tracker
+        </h1>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-white rounded-xl p-6 shadow-md">
+                <p class="text-sm text-gray-500">Total</p>
+                <p id="totalValue" class="text-2xl font-semibold mt-2">0</p>
+            </div>
+
+            <div class="bg-white rounded-xl p-6 shadow-md">
+                <p class="text-sm text-gray-500">Interview</p>
+                <p id="interviewValue" class="text-2xl font-semibold text-green-500 mt-2">0</p>
+            </div>
+
+            <div class="bg-white rounded-xl p-6 shadow-md">
+                <p class="text-sm text-gray-500">Rejected</p>
+                <p id="rejectedValue" class="text-2xl font-semibold text-red-500 mt-2">0</p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
