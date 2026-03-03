@@ -60,6 +60,27 @@
         <button id="listInterview" class="px-6 py-2 bg-white border rounded-md">Interview</button>
         <button id="listRejected" class="px-6 py-2 bg-white border rounded-md">Rejected</button>
     </div>
-</section>
+    </section>
+    <section class="w-[80%] mx-auto mt-6" id="jobParent">
+
+    <div id="jobTemplate" class="hidden border bg-white p-6 mb-4">
+        <h2 class="jobTitle"></h2>
+        <p class="jobLine1"></p>
+        <p class="jobLine2"></p>
+        <span class="jobTag"></span>
+        <p class="jobDesc"></p>
+
+        <button class="interviewBtn">Interview</button>
+        <button class="rejectBtn">Rejected</button>
+        <button class="deleteBtn">Delete</button>
+    </div>
+
+    <div id="emptyState" class="hidden">
+        <h3>No jobs available</h3>
+    </div>
+
+    </section>
+
+    <script src="./script.js"></script>
 </body>
 </html>
